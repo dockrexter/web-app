@@ -1,0 +1,29 @@
+#sidemenu{
+	background-color: #d7d9d9;
+	border-radius: 20px;
+}
+#main_sec{
+	background-color: #d7d9d9;
+	border-radius: 20px;
+	box-shadow: 5px 10px #888888;
+}
+#right_sec{
+	background-color: rgba(36, 44, 97, 1);
+	border-radius: 20px;
+
+}
+#secnd_sec{
+	color: white;
+	background-color: rgba(237, 249, 252, 0.1);
+	border-radius: 20px;
+}
+#top_sec{
+	color: white;
+}
+#first_sec{
+	background-color: rgba(237, 249, 252, 0.1);
+	border-radius: 20px;
+}
+.links{
+	color:red;
+}

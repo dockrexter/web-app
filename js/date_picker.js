@@ -1,0 +1,1 @@
+$('#body').load('forms/form.html');

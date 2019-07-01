@@ -27,3 +27,6 @@
 .links{
 	color:red;
 }
+.list-group-item ul{
+	display: none;
+}

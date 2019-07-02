@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>date_picker</title>
-	<!-- Bootstrap CSS -->
+    <title>Sortable</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/style.css" rel="stylesheet">
+
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.structure.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+
+
 </head>
 <body>
-	<!-- Header/Navigation bar -->
+    <!-- Header/Navigation bar -->
     <div id="nav"></div>
     <!-- header navigation bar en -->
 
     <!-- body -->
 
+    <div class="container-fluid">
+    <div class="row mr-auto my-5 bg-light" id="main_sec">
+    <div class="col bg-light" id="sidemenu">
+        <h2>Tasks to do!!</h2>
+        <ul class="list-group my-4"id="sortable">
+            <li class="list-group-item active">First item</li>
+            <li class="list-group-item bg-danger">Second item</li>
+            <li class="list-group-item bg-success">Third item</li>
+            <li class="list-group-item bg-warning">Fourth item</li>
+        </ul>
+        <h2>Tasks Completed!!</h2>
+        <ul class="list-group my-4"id="sortable2">
+            <li class="list-group-item active">First item</li>
+            <li class="list-group-item bg-danger">Second item</li>
+            <li class="list-group-item bg-success">Third item</li>
+            <li class="list-group-item bg-warning">Fourth item</li>
+        </ul>
+        <button type="button" class="btn btn-primary">Reset</button>
+    </div>
+</div>
+</div>
+    
+
 
     <!-- footer -->
-	<div id="foot"></div>
-	<!-- footer end -->
+    <div id="foot"></div>
+    <!-- footer end -->
 
 <!-- javascript, jquery -->
     <script
@@ -24,9 +53,15 @@
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery-ui.min.js"></script>
+
     <!-- jquery -->
     <script src="js/index.js">
     </script>
     <!-- jquery end -->
+
+    <script src="js/sorter.js"></script>
+
 </body>
 </html>
